@@ -1,34 +1,11 @@
-# Testes automatizados com Cypress - Intermediário
+## Aprimorando meus conhecimentos com Cypress 
 
-👋 Seja bem-vinda(o)!
+Atualmente, estou aprimorando meus conhecimentos em **Cypress** e utilizando uma **imagem Docker** para testar e automatizar fluxos de teste no **GitLab** localmente. O objetivo é criar uma configuração robusta e eficiente para realizar testes automatizados em ambientes de desenvolvimento reais, garantindo a qualidade das integrações e fluxos.
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+### Ambiente de Testes
 
-## O que você vai aprender
+Para os testes, estou utilizando:
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
-
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
-
-## Vamos começar?
-
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+- **Cypress**: Para a automação de testes de UI e APIs.
+- **GitLab (local)**: Testando a integração com o GitLab em um ambiente local.
+- **Docker**: Usando imagens Docker para configurar e isolar o ambiente de testes, garantindo que tudo funcione de forma previsível e controlada.
