@@ -2,7 +2,7 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost/users/sign_in',
+    baseUrl: 'http://localhost/',
   },
   fixturesFolder: false,
   video: false,

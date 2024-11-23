@@ -1,7 +1,9 @@
 describe('Validation', () => {
-  it('Login', () => {
-    
+
+  it('direcionamento para area logada', () => {
     cy.login();
-      
   })
+  
+  
+
 })
