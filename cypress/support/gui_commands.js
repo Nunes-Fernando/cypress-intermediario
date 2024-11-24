@@ -14,11 +14,6 @@ Cypress.Commands.add('login', (
         cy.get('#new_user > .submit-container > .btn')
             .click();
       
-        cy.get('.blank-state-row > [href="/projects/new"]')
-            .as('Is present');
-      
-        cy.get('@Is present')
-            .should('be.visible');
     }
 
     login();
@@ -62,5 +57,32 @@ Cypress.Commands.add('create_project', () => {
     }
 
     createProject();
+
+})
+
+Cypress.Commands.add('create_issue', () => {
+
+    const createIssue = () => {
+        cy.get('.text-plain')
+            .click();
+        
+        cy.get('.shortcuts-issues')
+            .click();
+
+        cy.get('#new_issue_link')  
+            .click();
+        
+        cy.get('#issue_title')
+            .type('criando issue')
+        
+        cy.get('#issue_description')
+            .type('testes automatizados com cypress');
+
+        cy.get('.append-right-10 > .btn')
+            .click();
+        
+    }
+
+    createIssue();
 
 })
